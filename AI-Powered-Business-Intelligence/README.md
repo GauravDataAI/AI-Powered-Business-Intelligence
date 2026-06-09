@@ -247,22 +247,4 @@ AI-Powered Business Intelligence Dashboard is an end-to-end analytics solution t
 
 The project successfully demonstrates how business data can be transformed into meaningful insights, predictive intelligence, and interactive decision-support systems using modern analytical tools and technologies.
 
----
 
-## 📊 Dashboard Preview
-
-### Main Dashboard
-
-![Dashboard](screenshots/dashboard_home.png)
-
-### Business KPI Analysis
-
-![KPI Analysis](screenshots/kpi_analysis.png)
-
-### AI Profit Prediction
-
-![AI Prediction](screenshots/profit_prediction.png)
-
-### AI Generated Insights
-
-![AI Insights](screenshots/ai_insights.png)
