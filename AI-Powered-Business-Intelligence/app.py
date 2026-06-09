@@ -449,28 +449,69 @@ with st.sidebar:
     """, unsafe_allow_html=True)
 
 # ================= LOAD DATA & MODEL =================
-df = pd.read_csv("Data/business_data.csv")
+import os
+import pandas as pd
+import joblib
+
+# Get current file directory
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Create paths that work both locally and on Streamlit Cloud
+csv_path = os.path.join(BASE_DIR, "Data", "business_data.csv")
+model_path = os.path.join(BASE_DIR, "model.pkl")
+
+# Load Dataset
+df = pd.read_csv(csv_path)
+
+# Date Processing
 df['Order Date'] = pd.to_datetime(df['Order Date'])
 df['Month'] = df['Order Date'].dt.month
 
-model = joblib.load("model.pkl")
+# Load Machine Learning Model
+model = joblib.load(model_path)
 
-# Helper function for Plotly Charts - Light Theme
+
+# ================= HELPER FUNCTION FOR PLOTLY CHARTS =================
 def style_fig(fig):
     fig.update_layout(
         template="plotly_white",
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
-        font=dict(family="Inter, sans-serif", size=12, color="#475569"),
-        title=dict(font=dict(size=20, color="#1e293b", family="Inter, sans-serif"), x=0.05),
-        legend=dict(font=dict(color="#64748b"), bgcolor="rgba(0,0,0,0)"),
+        font=dict(
+            family="Inter, sans-serif",
+            size=12,
+            color="#475569"
+        ),
+        title=dict(
+            font=dict(
+                size=20,
+                color="#1e293b",
+                family="Inter, sans-serif"
+            ),
+            x=0.05
+        ),
+        legend=dict(
+            font=dict(color="#64748b"),
+            bgcolor="rgba(0,0,0,0)"
+        ),
         margin=dict(l=20, r=20, t=50, b=20),
-        xaxis=dict(gridcolor="#f1f5f9", zerolinecolor="#e2e8f0"),
-        yaxis=dict(gridcolor="#f1f5f9", zerolinecolor="#e2e8f0"),
-        hoverlabel=dict(bgcolor="white", font_size=14, font_family="Inter, sans-serif", font_color="#1e293b", bordercolor="#667eea")
+        xaxis=dict(
+            gridcolor="#f1f5f9",
+            zerolinecolor="#e2e8f0"
+        ),
+        yaxis=dict(
+            gridcolor="#f1f5f9",
+            zerolinecolor="#e2e8f0"
+        ),
+        hoverlabel=dict(
+            bgcolor="white",
+            font_size=14,
+            font_family="Inter, sans-serif",
+            font_color="#1e293b",
+            bordercolor="#667eea"
+        )
     )
     return fig
-
 # ================= PAGE NAVIGATION LOGIC =================
 if st.session_state.page == 'Dashboard':
     # Hero Section
