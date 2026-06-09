@@ -47,13 +47,11 @@ Business Data → Data Cleaning → KPI Analysis → Business Intelligence → M
 
 ## 🔗 Project Links
 
-## 🚀 Quick Access
+- 🌐 Live Dashboard: [View Dashboard](https://ai-powered-business-intelligence-rjtykrkcdcm7dlh4yeg85k.streamlit.app/)
 
+- 📘 Jupyter Notebook: [View Notebook](https://github.com/GauravDataAI/AI-Powered-Business-Intelligence/blob/main/AI-Powered-Business-Intelligence/AI_BI_Analysis.ipynb)
 
-| 🌐 Live Dashboard | [Open Dashboard](https://ai-powered-business-intelligence-rjtykrkcdcm7dlh4yeg85k.streamlit.app/) |
-| 📘 Jupyter Notebook | [View Notebook](https://github.com/GauravDataAI/AI-Powered-Business-Intelligence/blob/main/AI-Powered-Business-Intelligence/AI_BI_Analysis.ipynb) |
-| 📂 GitHub Repository | [Explore Repository](https://github.com/GauravDataAI/AI-Powered-Business-Intelligence) |
----
+- 📂 GitHub Repository: [Explore Repository](https://github.com/GauravDataAI/AI-Powered-Business-Intelligence)
 
 
 
