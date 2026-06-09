@@ -2,9 +2,7 @@
 
 ## 📌 Project Overview
 
-AI-Powered Business Intelligence Dashboard is a Python-based Data Analytics, Business Intelligence, and Machine Learning project developed during my Data Analytics Internship at CodeTech IT Solutions.
-
-The project transforms raw business data into meaningful insights through interactive visualizations, KPI monitoring, automated business intelligence, and AI-driven profit prediction. It helps organizations understand business performance, identify trends, and support data-driven decision-making. 📊🚀
+AI-Powered Business Intelligence Dashboard is a Data Analytics project developed during my Data Analytics Internship at CodeTech IT Solutions. It converts raw business data into interactive dashboards, key performance indicators (KPIs), and AI-driven insights to help businesses monitor performance, identify trends, and make smarter data-driven decisions. 📊🚀
 
 ---
 
@@ -25,17 +23,15 @@ The dashboard enables users to:
 
 ## 🚀 Technologies Used
 
-This project leverages modern Data Analytics and Machine Learning technologies, including:
-
-* Python
-* Pandas
-* NumPy
-* Plotly
-* Streamlit
-* Scikit-Learn
-* Joblib
-* Jupyter Notebook
-* GitHub
+Python
+Pandas
+NumPy
+Plotly
+Streamlit
+Scikit-Learn
+Joblib
+Jupyter Notebook
+GitHub
 
 ---
 
@@ -167,11 +163,14 @@ This deployment experience helped me understand how to transform a locally devel
 
 ## 🔗 Project Links
 
-🌐 **View Live Dashboard:** *(Add Streamlit Link Here)*
+🌐 **View Live Dashboard**  
+https://ai-powered-business-intelligence-rjtykrkcdcm7dlh4yeg85k.streamlit.app/
 
-📘 **View Jupyter Notebook:** *(Add Notebook Link Here)*
+📘 **View Jupyter Notebook**  
+https://github.com/GauravDataAI/AI-Powered-Business-Intelligence/blob/main/AI-Powered-Business-Intelligence/AI_BI_Analysis.ipynb
 
-📂 **View GitHub Repository:** *(Add Repository Link Here)*
+📂 **View GitHub Repository**  
+https://github.com/GauravDataAI/AI-Powered-Business-Intelligence
 
 ---
 
