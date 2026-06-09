@@ -43,6 +43,8 @@ Business Data → Data Cleaning → KPI Analysis → Business Intelligence → M
 
 ---
 
+
+
 ## 🔗 Project Links
 
 ## 🚀 Quick Access
@@ -52,6 +54,8 @@ Business Data → Data Cleaning → KPI Analysis → Business Intelligence → M
 | 📘 Jupyter Notebook | [View Notebook](https://github.com/GauravDataAI/AI-Powered-Business-Intelligence/blob/main/AI-Powered-Business-Intelligence/AI_BI_Analysis.ipynb) |
 | 📂 GitHub Repository | [Explore Repository](https://github.com/GauravDataAI/AI-Powered-Business-Intelligence) |
 ---
+
+
 
 ## 🎓 Project Type
 
