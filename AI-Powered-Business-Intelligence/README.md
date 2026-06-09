@@ -163,14 +163,12 @@ This deployment experience helped me understand how to transform a locally devel
 
 ## 🔗 Project Links
 
-🌐 **View Live Dashboard**  
-https://ai-powered-business-intelligence-rjtykrkcdcm7dlh4yeg85k.streamlit.app/
+## 🚀 Quick Access
 
-📘 **View Jupyter Notebook**  
-https://github.com/GauravDataAI/AI-Powered-Business-Intelligence/blob/main/AI-Powered-Business-Intelligence/AI_BI_Analysis.ipynb
 
-📂 **View GitHub Repository**  
-https://github.com/GauravDataAI/AI-Powered-Business-Intelligence
+| 🌐 Live Dashboard | [Open Dashboard](https://ai-powered-business-intelligence-rjtykrkcdcm7dlh4yeg85k.streamlit.app/) |
+| 📘 Jupyter Notebook | [View Notebook](https://github.com/GauravDataAI/AI-Powered-Business-Intelligence/blob/main/AI-Powered-Business-Intelligence/AI_BI_Analysis.ipynb) |
+| 📂 GitHub Repository | [Explore Repository](https://github.com/GauravDataAI/AI-Powered-Business-Intelligence) |
 
 ---
 
